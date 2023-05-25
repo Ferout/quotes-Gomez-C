@@ -18,7 +18,9 @@ def main():
 
         if choice == "1":
             print_quote(random_quote(quotes))
-        elif choice == "2":
+        elif choice == "2"
+            count = int(input("Enter the number of quotes to display: "))
+            display_quotes(quotes, count)
             view_quotes(quotes)
         elif choice == "3":
             print("Good bye...")
