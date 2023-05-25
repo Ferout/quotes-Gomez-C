@@ -1,5 +1,6 @@
 from functions import *
 
+add_quote(quotes, filename)
 
 def menu():
     print("\n==== Programming Quotes ====")
